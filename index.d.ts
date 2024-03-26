@@ -33,5 +33,11 @@ declare module 'react-native-appmetrica-yandex' {
         public static setUserProfileID(userProfileId: string): void;
 
         public static sendEventsBuffer(): void;
+
+        public static showProductCard(params: ProductCardParams): void;
+        public static addToCart(params: CartItemParams): void;
+        public static removeFromCart(params: CartItemParams): void;
+        public static beginCheckout(params: CheckoutParams): void;
+        public static finishCheckout(params: CheckoutParams): void;
     }
 }
