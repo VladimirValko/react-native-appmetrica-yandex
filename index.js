@@ -87,4 +87,24 @@ export class YandexMetrica {
     static sendEventsBuffer() {
         YandexAppmetrica.sendEventsBuffer();
     }
+
+    static showProductCard(params) {
+        YandexAppmetrica.showProductCard(params);
+    }
+
+    static addToCart(params) {
+        YandexAppmetrica.addToCart(params);
+    }
+
+    static removeFromCart(params) {
+        YandexAppmetrica.removeFromCart(params);
+    }
+
+    static beginCheckout(products, identifier) {
+        YandexAppmetrica.beginCheckout(products, identifier);
+    }
+
+    static finishCheckout(products, identifier) {
+        YandexAppmetrica.finishCheckout(products, identifier);
+    }
 }
